@@ -1,5 +1,15 @@
 # AI Enterprise Assistant
 
+![Python](https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.35-FF4B4B?logo=streamlit&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-0.1.20-1C3C3C)
+![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock-FF9900?logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)
+![Last Commit](https://img.shields.io/github/last-commit/Chowdri-Furkhan07/ai-enterprise)
+![Repo Size](https://img.shields.io/github/repo-size/Chowdri-Furkhan07/ai-enterprise)
+![License](https://img.shields.io/badge/license-unspecified-lightgrey)
+
 A multi-agent enterprise AI assistant that combines Retrieval-Augmented Generation (RAG), SQL querying, and role-based reporting. Built with **FastAPI**, **CrewAI**, **AutoGen**, and **LangChain**, powered by **AWS Bedrock** LLMs, with vector search across **Pinecone** and **FAISS**, and a **Streamlit** frontend.
 
 ## Features
@@ -132,7 +142,25 @@ docker run -p 8000:8000 --env-file .env ai-enterprise
 
 ## Screenshots
 
-See the [`Screenshots/`](./Screenshots) folder for the upload flow, admin view, analyst view, and summary view.
+**App preview — upload a file and ask a question, per role**
+
+![Preview](./Screenshots/Preview.png)
+
+**File uploaded and ready for querying**
+
+![Document uploaded](./Screenshots/Document_uploaded.png)
+
+**Admin role — detailed report**
+
+![Admin results](./Screenshots/Admin_results.png)
+
+**Analyst role — in-depth analysis**
+
+![Analyst results](./Screenshots/Analyst_results.png)
+
+**Viewer role — condensed summary**
+
+![Summary](./Screenshots/Summary.png)
 
 ## Notes
 
