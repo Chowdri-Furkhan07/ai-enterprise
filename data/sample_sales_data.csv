@@ -1,0 +1,9 @@
+order_id,customer_name,region,product,quantity,unit_price,order_date
+1001,Acme Corp,North,Widget A,50,19.99,2026-01-05
+1002,Beta LLC,South,Widget B,20,49.99,2026-01-12
+1003,Gamma Inc,East,Widget A,75,19.99,2026-02-03
+1004,Delta Co,West,Widget C,10,99.99,2026-02-15
+1005,Acme Corp,North,Widget C,30,99.99,2026-03-01
+1006,Epsilon Ltd,South,Widget B,40,49.99,2026-03-10
+1007,Gamma Inc,East,Widget A,60,19.99,2026-03-22
+1008,Beta LLC,South,Widget C,15,99.99,2026-04-02
