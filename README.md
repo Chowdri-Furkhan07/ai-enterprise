@@ -12,6 +12,8 @@
 
 A multi-agent enterprise AI assistant that combines Retrieval-Augmented Generation (RAG), SQL querying, and role-based reporting. Built with **FastAPI**, **CrewAI**, **AutoGen**, and **LangChain**, powered by **AWS Bedrock** LLMs, with vector search across **Pinecone** and **FAISS**, and a **Streamlit** frontend.
 
+---
+
 ## Features
 
 - **Multi-agent orchestration** — a `Manager` routes each query to the right specialist agent:
