@@ -17,7 +17,7 @@ A multi-agent enterprise AI assistant that combines Retrieval-Augmented Generati
 ## Features
 
 - **Multi-agent orchestration** - a `Manager` routes each query to the right specialist agent:
-  - `ResearchAgent` — in-depth topic research and analysis
+  - `ResearchAgent` - in-depth topic research and analysis
   - `RetrievalAgent` — RAG over uploaded documents (Pinecone first, FAISS fallback)
   - `SQLAgent` — natural-language-to-SQL querying against MySQL
   - `ReportAgent` — formats output differently for `admin`, `analyst`, and `viewer` roles
