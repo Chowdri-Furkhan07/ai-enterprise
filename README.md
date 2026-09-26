@@ -20,7 +20,7 @@ A multi-agent enterprise AI assistant that combines Retrieval-Augmented Generati
   - `ResearchAgent` - in-depth topic research and analysis
   - `RetrievalAgent` - RAG over uploaded documents (Pinecone first, FAISS fallback)
   - `SQLAgent` - natural-language-to-SQL querying against MySQL
-  - `ReportAgent` — formats output differently for `admin`, `analyst`, and `viewer` roles
+  - `ReportAgent` - formats output differently for `admin`, `analyst`, and `viewer` roles
   - `ValidationAgent` — sanity-checks generated responses before they're returned
 - **Document ingestion pipeline** — upload PDF, CSV, or DOCX files; they're loaded, chunked, and indexed into both Pinecone and FAISS
 - **Conversation memory** — the last 5 Q&A exchanges are persisted to `memory.json` and fed back in as context
